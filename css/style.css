@@ -1,0 +1,633 @@
+/* General reset and styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  /* Limit the container's width */
+  margin: 0 auto;
+  /* Center the container */
+  padding: 0 15px;
+  /* Add padding for smaller screens */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  /* Spread items evenly */
+  align-items: center;
+  /* Align items vertically */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: hsl(173, 86%, 31%) !important;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  position: sticky;
+  z-index: 5000;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+section {
+  height: 100vh;
+  background-image: url('../images/solar-panels-meadow\ 1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.row {
+  width: 100%;
+
+}
+
+.sec .row .col-6 {
+  width: calc(100% - (6/12)*100);
+  margin-top: 70px;
+}
+
+.sec-text h1 {
+  font-weight: 600;
+
+  font-size: 52px;
+  color: #fff;
+}
+
+.sec-text {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.child:nth-child(1) {
+  background-color: #3CAB90;
+  width: 173px;
+  height: 41px;
+  border-radius: 109px;
+  padding: 12px 34px;
+  border-color: transparent;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px
+}
+
+.child:nth-child(2) {
+  background-color: #FFBB1C;
+  width: 208px;
+  height: 41px;
+  border-radius: 109px;
+  padding: 12px 34px;
+  border-color: transparent;
+  color:  #2A3334;
+  font-weight: 400;
+  font-size: 14px
+}
+
+.sec .row .col-6 .parent {
+  position: relative;
+ 
+
+}
+
+.sec .row .col-6 .parent .line{
+  position: absolute;
+  width: 89.01px;
+  height: 0px;
+  top: 30%;
+  left: 5%;
+  gap: 0px;
+  border: 3.75px 0px 0px 0px;
+  opacity: 0px;
+  border: 3.75px solid #FFFFFF;
+  background-color: #FFFFFF;
+  color: #FFFF;
+}
+.sec .row .col-6 .parent .between .childspan:nth-child(1):before{
+content: "01";
+position: absolute;
+left: 0;
+top:0;
+color: #FFFFFF;
+}
+.sec .row .col-6 .parent .between .childspan:nth-child(2)::after{
+  content: "04";
+  position: absolute;
+  top: 0;
+  left: 40%;
+  color: #FFFFFF;
+  }
+  .testmonial .row{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+  }
+  .testmonial .col-6{
+    width: calc(100% - (6/12)*100);
+   
+  }
+
+  .box-col{
+    position: relative;
+  }
+  .box{
+    position: absolute;
+    width: 266px;
+    height: 208px;
+    background-color: #FFBB1C;
+    border-radius: 12px;
+   left: 0;
+
+    bottom: 10%;
+  }
+  .sec2{
+    margin-top: 30px;
+    background-image: url('../images/8116\ 1.png');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .kits-img{
+    width:358.67px;
+    height:240px;
+  }
+  .sec2 .div {
+display: flex;
+height: 100vh;
+align-items: center;
+  }
+  .btn{
+    background-color: #FFBB1C;
+    width: 208px;
+    height: 41px;
+    border-radius: 109px;
+    padding: 12px 34px;
+    border-color: transparent;
+   
+    font-weight: 400;
+    font-size: 14px
+  }
+  .col{
+    width: 358.67px;
+    height:454px;
+    
+  }
+  .kits{
+    width: 1140px;
+  }
+  .paragraph{
+    width: 594px;height: 144px;
+  }
+  .solar-img{
+    width:469px ;
+    height:552px;
+  }
+  .calc-sec{
+    height: 100vh;
+    background-image: url('../images/section.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .repair{
+
+    width: 858px;
+    height: 311px;
+    border-radius: 12px;
+    padding: 44px;
+    gap: 32px;
+    background-color: #00000091;
+    
+  }
+  .calc-sec .repair p:nth-child(1){
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50.83px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #FFFFFF;
+
+
+  }
+  .calc-sec .repair p:nth-child(2){
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #FFFFFF;
+
+
+  }
+  .energy{
+    background-color: #FFBB1C0D;
+    padding: 50px 0;
+  }
+  .energy-icon{
+    width: 56px;
+    height: 58px;
+    border-radius: 10px;
+    border: 21px ;
+    background-color: #3CAB90;
+  }
+  .energy-icon img{
+    width: 28px;
+    height: 28px;
+    margin: 14px;
+  }
+  .energy .row{
+    display: flex;
+    width: 100%;
+  }
+.col-first{
+    width: 358.67px;
+    height: 337px;
+    
+  }
+ .col-second{
+  width: 358.67px;
+  margin: 0 10px;
+
+
+
+
+ }
+  
+  .energy .row .col-6:nth-child(2) .row .col-3{
+    width: 358.67px;
+  }
+  .icon-1{
+    width: 310.67px;
+    height: 106px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .values-col{
+    width: 358.67px;
+    height: 420px;
+    border-radius: 12px;
+    border: 1px solid #3CAB90;
+    
+  }
+  .values-col img{
+    width: 70px;
+    height: 70px;
+  }
+  .first-woc-col{
+    width: 400px;
+    height: 296px;
+  }
+  .secont-woc-col{
+    width: 708px;
+    height: 443px;
+    background-color: #3CAB900F;
+    border-radius: 24px;
+    padding: 40px;
+  }
+  .woc-text{
+    display: flex;
+    justify-content: space-between;
+  }
+  .woc-icons{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    align-items: end;
+  }
+
+  .footer-col-1{
+    width: calc(100% - (8/12*100));
+  }
+  .footer-col-2{
+    width: calc(100% - (4/12*100))
+  }
+  .ul-footer li a{
+    margin: 0 10px;
+   
+  }
+  input{
+    width: 406px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 38px;
+    border:1px solid #FFFFFF ;
+    color: #B3BDC7;
+    padding: 0 20px;
+    
+  }
+  .footer-pos{
+    position: relative;
+   
+  }
+  .footer-button{
+    position: absolute;
+    right: 0;
+    top:30%;
+    width: 147px;
+    height: 48px;
+    border-radius: 109px;
+    color: #FFFF;
+    border-color: transparent;
+    background-color: #FFBB1C;
+  }
+  input:focus{
+    border-color:#FFFFFF ;
+    outline: none;
+  }
+  .row-22{
+    display: flex;
+    justify-content: space-between;
+  }
+  .spans span{
+    margin: 0 20px;
+  }
+  @media (max-width:1200px) and (min-width:768px){
+    .sec2{
+      margin-top: 30px;
+      background-image: url('../images/8116\ 1.png');
+      background-size: 100% 100%;
+      
+    }
+    .testmonial .row{
+      display: block;
+    }
+    .testmonial .row .col-6:nth-child(2) .solar-img{
+      width: 40%;
+    }
+    .paragraph{
+      width: 100%;
+    }
+    .kits{
+      width: 100%;
+     }
+    .col{
+      width: 100%;
+    }
+    .kits-img{
+      width: 100%;
+    }
+    .energy .row{
+     
+    display: block;
+      width: 100%;
+      
+      
+    }
+    .col-first{
+      margin: auto;
+    }
+    .col-second{
+    
+      text-align: center;
+      width: 100%;
+     height: 100%;
+  }
+    .icon-1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    }
+    .values-col{
+      margin: 0 10px;
+      height: 100%;
+      padding: 10px 10px;
+    }
+    .footer-col-1{
+      width: 50%;
+    }
+    .footer-col-2{
+      width: 50%;
+    }
+    .ul-footer  {
+      display: flex;
+      flex-wrap: wrap;
+    }
+ 
+    input{
+      width: 100%;
+    }
+    .spans{
+      display: flex;
+      flex-wrap: wrap;
+    }
+   
+  }
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    /* Stack elements vertically */
+    text-align: center;
+    /* Center-align content */
+  }
+  .checkbtn {
+    display: block;
+    order: 1;
+    margin-right: 20px;
+  }
+
+  ul {
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    background-color:#0B9586;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    z-index: 1000;
+  }
+
+  ul li {
+    margin: 20px 0;
+  }
+
+  ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul {
+    right: 0;
+  }
+  .sec{
+    background-image: url('../images/solar-panels-meadow\ 1.png');
+  background-size: 100% 100%;
+  width: 100%;
+  }
+  .testmonial .row{
+    display: block;
+  }
+  .testmonial .row .col-6:nth-child(1){
+    width: 50%;
+  }
+  .testmonial .row .col-6:nth-child(2){
+    width: 100%;
+  }
+  .testmonial .row .col-6:nth-child(2) .solar-img{
+    width: 80%;
+  }
+  .sec2{
+    margin-top: 30px;
+    background-image: url('../images/8116\ 1.png');
+    background-size: 100% 100%;
+    width:100%
+  }
+  .kits{
+   width: 100%;
+  }
+  .energy .row{
+   
+    width: 100%;
+    
+  }
+   .col-second{
+      margin: auto;
+  }
+  .values .row{
+    display: flex;
+    justify-content: center;
+  }
+  .woc .row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .secont-woc-col{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width:768px) and (min-width:100px){
+  .row {
+    flex-direction: column;
+    /* Stack elements vertically */
+    text-align: center;
+    /* Center-align content */
+  }
+
+  .col-3,
+  .col-6 {
+
+    width: 100%;
+    /* Full width for all columns */
+  }
+
+  ul {
+    flex-direction: column;
+    /* Stack menu items vertically */
+    gap: 10px;
+    /* Adjust spacing */
+  }
+
+  .end {
+    text-align: center;
+    /* Center-align call info */
+  }
+  .sec{
+    background-image: url('../images/solar-panels-meadow\ 1.png');
+  background-size: 100% 100%;
+  width: 100%;
+  }
+  .testmonial .row .col-6:nth-child(1){
+    width: 100%;
+  }
+  .paragraph{
+    width: 100%;
+  }
+  .testmonial .row .col-6:nth-child(2){
+    width: 100%;
+  }
+  .testmonial .row .col-6:nth-child(2) .solar-img{
+    width: 80%;
+  }
+  .kits{
+    width: 100%;
+   }
+   .repair{
+
+    width: 858px;
+     height:500px;
+    border-radius: 12px;
+    padding: 44px;
+    gap: 100px;
+    background-color: #00000091;
+    
+  }
+  
+  .col-second{
+    
+    margin: auto;
+    
+}
+
+ .spans span{
+ display: block;
+ }
+ .footer-col-2{
+  margin-top: 40px;
+ }
+}
